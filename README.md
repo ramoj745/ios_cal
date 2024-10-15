@@ -1,6 +1,6 @@
 # iOS Calculator
 
-This is a web-based calculator designed to mimic the functionality and aesthetic of the iPhone calculator app. It features basic arithmetic operations, percentage calculations, and scientific notation for larger numbers.
+This is a web-based calculator that replicates the functionality and design of the iPhone calculator app. It includes essential arithmetic operations, percentage calculations, and scientific notation for larger numbers, effectively addressing all edge cases found in the iPhone calculator.
 
 ## Features
 
