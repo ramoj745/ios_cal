@@ -12,4 +12,7 @@ This is a web-based calculator designed to mimic the functionality and aesthetic
 
 ## Check it out!
 
+- https://ramoj745.github.io/ios_cal/
+
+
    
