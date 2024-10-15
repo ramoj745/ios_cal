@@ -1,0 +1,178 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    font-family: "Roboto";
+}
+.phone {
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+.credits {
+    position: absolute;
+    z-index: 3;
+    bottom: 30px;
+    color: white;
+    font-family: "Roboto";
+    font-weight: 300;
+    font-size: 18px;
+}
+.bar {
+    background-color: #ffffff;
+    position: absolute;
+    bottom: 120px;
+    left: 477px;
+    color: #fff;
+    height: 5px;
+    width: 160px;
+    z-index: 2;
+    border-radius: 5px 5px 5px 5px;
+}
+
+.calc-container {
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    height: 610px;
+    width: 416px;
+    border-radius: 0px 0px 75px 75px;
+    margin-top: 150px;
+    z-index: 1;
+}
+.image {
+    width: 1100px;
+    height: auto;
+    margin-right: 4px;
+}
+.placeholder-screen {
+    display: flex;
+    justify-content: flex-end;
+    background-color: black;
+    width: 100%;
+    height: 150px;
+}
+.screen {
+    display: flex;
+    width: 90%;
+    justify-content: flex-end;
+    height: 100%;
+    margin-right: 40px;
+    margin-left: 22px;
+    overflow: hidden;
+}
+h1 {
+    font-size: 5.8rem;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-weight: 380;
+    color: white;
+}
+.button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    border-radius: 0 0 45px 44px;
+}
+.buttons-grid {
+    display: grid;
+    gap: 12px;
+    grid-template-columns: 1fr 1fr 1fr 1fr; 
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    height: 90%;
+    width: 90%;
+    background-color: black;
+}
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    color: white;
+    background-color: #1C1C1C;
+    font-size: 2.6rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+
+}
+.btn:hover {
+    background-color: #757272;
+    transform: scale(1.1);
+}
+.op-btn:hover {
+    background-color: #f1bf78 ;
+}
+#other:hover {
+    background-color: #e4e4e4;
+}
+.del {
+    grid-column-start: 1;
+    grid-row-start: 1;
+    background-color: #a09c9c;
+    color: black;
+    font-size: 37px;
+    font-weight: 400;
+}
+.negposi {
+    grid-column-start: 2;
+    grid-row-start: 1;
+    background-color: #a09c9c;
+    color: black;
+}
+.percent {
+    grid-column-start: 3;
+    grid-row-start: 1;
+    background-color: #a09c9c;
+    color: black;
+}
+.div {
+    grid-column-start: 4;
+    grid-row-start: 1;
+    background-color: #FF9500;
+}
+.mult {
+    grid-column-start: 4;
+    grid-row-start: 2;
+    background-color: #FF9500;
+}
+.sub {
+    grid-column-start: 4;
+    grid-row-start: 3;
+    background-color: #FF9500;
+}
+.add {
+    grid-column-start: 4;
+    grid-row-start: 4;
+    background-color: #FF9500;
+}
+.equal {
+    background-color: #FF9500;
+}
+.zero {
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 32px;
+    grid-column: span 2;
+    border-radius: 45px 45px 45px 45px;
+}
+.toggle-btn {
+    background-color: white;
+    color: #FF9500;
+}
+.icons {
+    top: 122px;
+    left: 648px;
+    height: 14px;
+    filter: invert();
+    position: absolute;
+}
+
+
