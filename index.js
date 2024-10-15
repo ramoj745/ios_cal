@@ -91,7 +91,7 @@ buttons.forEach(button => {
             else if (buttonText === "±") {
                 //if curr. input is op1
                 if (!shouldResetScreen) {
-                    const negative = operand1.includes("-")
+                    const negative = String(operand1).includes("-")
                     if (negative) {
                         operand1 = operand1.replace("-", "")
                         calculatorScreen.innerHTML = operand1
